@@ -99,6 +99,15 @@ $discs = json_decode($jsonObject, true);
 </head>
 <body>
     <div id="app">
+  <header id="site_header">
+    <div class="container d-flex justify-content-between align-items-center">
+      <div class="logo text-start align-middle">
+        <img width="50" src="./assets/img/spotify-logo.png" alt="" />
+      </div>
+    </div>
+    <!-- /.container -->
+  </header>
+  <!-- /#site_header -->
         <main id="site_main">
                     <div class="container">
             <div class="row row-cols-2 row-cols-sm-3 row-cols-xl-6 py-5 justify-content-center">
@@ -134,6 +143,15 @@ foreach ($discs['response'] as $disk): ?>
         </div>
         </main>
         <!-- /#site_main -->
+    <footer id="site_footer">
+        <div class="container">
+            <div class="copyright">
+                <small class="text-white">&copy;Boolean</small>
+            </div>
+        </div>
+    <!-- /.container -->
+  </footer>
+  <!-- /#site_footer -->
 
     </div>
  <!-- /#app -->

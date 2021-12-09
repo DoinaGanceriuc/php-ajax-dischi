@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+header {
+  height: 100px;
+  background-color: #2e3a46;
+}
+.logo {
+  line-height: 100px;
+}
 main {
   background-color: #1e2d3b;
   height: calc(100vh - 200px);
@@ -15,4 +22,13 @@ main {
 .card-img-top {
   width: 90%;
   padding-top: 1rem;
+}
+footer {
+  height: 100px;
+  background-color: #2e3a46;
+}
+.copyright {
+  line-height: 100px;
+  vertical-align: middle;
+  text-align: center;
 }
