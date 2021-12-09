@@ -28,7 +28,7 @@
                         <img :src="disk.poster" class="card-img-top" :alt="disk.author" />
                             <div class="card-body text-center">
                             <h5 class="card-title text-white">
-                            {{ disk.title }}
+                            {{ disk.title.toUpperCase() }}
                             </h5>
                             <p class="card-text text-muted m-0">{{ disk.author }}</p>
                             <p class="card-text text-muted">{{ disk.year }}</p>
